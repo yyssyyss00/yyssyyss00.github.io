@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_yoonsooyoung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./portfolio_main.scss">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      
+     
+
+        .main .main_title {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            margin: 0 30px;
+            font-size: 13.5vw;
+            line-height: 8vw;
+            font-weight: 700;
+        }
+
+        .main_desc {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 30px;
+        }
+
+
+
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            gap: 10px;
+        }
+
+        .image-container img {
+            width: calc(100% / 5 - 10px); /* 5개 이미지, 간격 고려 */
+            height: auto;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <ul class="main_left">
+            <li></li>
+        </ul>
+        <ul class="main_menu">
+            <li><div id="menuArea">
+                <input type="checkbox" id="menuToggle"></input>
+              <label for="menuToggle" class="menuOpen">
+                <div class="open"></div>
+              </label>
+              
+              <div class="menu menuEffects">
+                <label for="menuToggle"></label>
+                <div class="menuContent">
+                  <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">WORKS</a></li>
+                  </ul>
+                </div>
+              </div>
+              </div></li>
+        </ul>
+    </div>
+   
+    <div class="main">
+        <div class="main_title">
+            <span class="custom-font">PORTFOLIO</span>
+        </div>
+
+        <div class="main_desc">
+            <div class="main_desc_left">
+                IMG TO VIDEO (+)<br>
+                PRINT TO VMD
+            </div>
+            <div class="main_desc_center">
+                <span class="custom-font">(2025)</span>
+            </div>
+            <div class="main_desc_right">
+                GRAPHIC DESIGN<br>
+                PORTFOLIO
+            </div>
+        </div>
+
+<div class="bottom_info">
+    SELECTED WORK
+</div>
+
+<div class="image-container">
+    <img src="./img/thm01.jpg" alt="이미지1">
+    <img src="./img/thm02.jpg" alt="이미지2">
+    <img src="./img/thm03.jpg" alt="이미지3">
+    <img src="./img/thm04.jpg" alt="이미지4">
+    <img src="./img/thm05.jpg" alt="이미지5">
+</div>
+            
+</body>
+</html>
